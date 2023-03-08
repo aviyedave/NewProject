@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-08T11:19:07 IST" name="SanitySuite" finished-at="2023-03-08T11:19:38 IST" duration-ms="31003">
+    <groups>
+    </groups>
+    <test started-at="2023-03-08T11:19:07 IST" name="HighPriorityTest" finished-at="2023-03-08T11:19:17 IST" duration-ms="10099">
+      <class name="com.saucedemo.TestPack.TC01_VerifyLoginFunctionality">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.saucedemo.TestPack.TC01_VerifyLoginFunctionality@6eda5c9]" started-at="2023-03-08T11:19:07 IST" name="beforeClass" finished-at="2023-03-08T11:19:11 IST" duration-ms="4024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.saucedemo.TestPack.TC01_VerifyLoginFunctionality@6eda5c9]" started-at="2023-03-08T11:19:11 IST" name="setUp" finished-at="2023-03-08T11:19:11 IST" duration-ms="653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginFunctionality()[pri:0, instance:com.saucedemo.TestPack.TC01_VerifyLoginFunctionality@6eda5c9]" started-at="2023-03-08T11:19:11 IST" name="verifyLoginFunctionality" finished-at="2023-03-08T11:19:11 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.TestPack.TC01_VerifyLoginFunctionality@6eda5c9]" started-at="2023-03-08T11:19:11 IST" name="tearDown" finished-at="2023-03-08T11:19:11 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.TestPack.TC01_VerifyLoginFunctionality@6eda5c9]" started-at="2023-03-08T11:19:11 IST" name="afterClass" finished-at="2023-03-08T11:19:12 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.saucedemo.TestPack.TC01_VerifyLoginFunctionality -->
+      <class name="com.saucedemo.TestPack.TC02_VerifyBagPrdtAddToCartFunctionality">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.saucedemo.TestPack.TC02_VerifyBagPrdtAddToCartFunctionality@333291e3]" started-at="2023-03-08T11:19:12 IST" name="beforeClass" finished-at="2023-03-08T11:19:16 IST" duration-ms="3991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.saucedemo.TestPack.TC02_VerifyBagPrdtAddToCartFunctionality@333291e3]" started-at="2023-03-08T11:19:16 IST" name="setUp" finished-at="2023-03-08T11:19:16 IST" duration-ms="503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyBagPrdtAddToCartFunctionality()[pri:0, instance:com.saucedemo.TestPack.TC02_VerifyBagPrdtAddToCartFunctionality@333291e3]" started-at="2023-03-08T11:19:16 IST" name="verifyBagPrdtAddToCartFunctionality" finished-at="2023-03-08T11:19:16 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBagPrdtAddToCartFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.TestPack.TC02_VerifyBagPrdtAddToCartFunctionality@333291e3]" started-at="2023-03-08T11:19:16 IST" name="tearDown" finished-at="2023-03-08T11:19:16 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.TestPack.TC02_VerifyBagPrdtAddToCartFunctionality@333291e3]" started-at="2023-03-08T11:19:16 IST" name="afterClass" finished-at="2023-03-08T11:19:17 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.saucedemo.TestPack.TC02_VerifyBagPrdtAddToCartFunctionality -->
+    </test> <!-- HighPriorityTest -->
+    <test started-at="2023-03-08T11:19:17 IST" name="lowPriorityTest" finished-at="2023-03-08T11:19:38 IST" duration-ms="20875">
+      <class name="com.saucedemo.TestPack.TC03_VerifyAllPrdtAddToCartFunctionality">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.saucedemo.TestPack.TC03_VerifyAllPrdtAddToCartFunctionality@5b239d7d]" started-at="2023-03-08T11:19:17 IST" name="beforeClass" finished-at="2023-03-08T11:19:26 IST" duration-ms="9048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.saucedemo.TestPack.TC03_VerifyAllPrdtAddToCartFunctionality@5b239d7d]" started-at="2023-03-08T11:19:26 IST" name="setUp" finished-at="2023-03-08T11:19:26 IST" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyBagPrdtAddToCartFunctionality()[pri:0, instance:com.saucedemo.TestPack.TC03_VerifyAllPrdtAddToCartFunctionality@5b239d7d]" started-at="2023-03-08T11:19:26 IST" name="verifyBagPrdtAddToCartFunctionality" finished-at="2023-03-08T11:19:28 IST" duration-ms="1423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBagPrdtAddToCartFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.TestPack.TC03_VerifyAllPrdtAddToCartFunctionality@5b239d7d]" started-at="2023-03-08T11:19:28 IST" name="tearDown" finished-at="2023-03-08T11:19:28 IST" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.TestPack.TC03_VerifyAllPrdtAddToCartFunctionality@5b239d7d]" started-at="2023-03-08T11:19:28 IST" name="afterClass" finished-at="2023-03-08T11:19:29 IST" duration-ms="1335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.saucedemo.TestPack.TC03_VerifyAllPrdtAddToCartFunctionality -->
+      <class name="com.saucedemo.TestPack.TC04_VerifyLogoutFunctionality">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.saucedemo.TestPack.TC04_VerifyLogoutFunctionality@6572421]" started-at="2023-03-08T11:19:29 IST" name="beforeClass" finished-at="2023-03-08T11:19:36 IST" duration-ms="6265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.saucedemo.TestPack.TC04_VerifyLogoutFunctionality@6572421]" started-at="2023-03-08T11:19:36 IST" name="setUp" finished-at="2023-03-08T11:19:36 IST" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogoutFunctionality()[pri:0, instance:com.saucedemo.TestPack.TC04_VerifyLogoutFunctionality@6572421]" started-at="2023-03-08T11:19:36 IST" name="verifyLogoutFunctionality" finished-at="2023-03-08T11:19:36 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.TestPack.TC04_VerifyLogoutFunctionality@6572421]" started-at="2023-03-08T11:19:36 IST" name="tearDown" finished-at="2023-03-08T11:19:37 IST" duration-ms="468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.TestPack.TC04_VerifyLogoutFunctionality@6572421]" started-at="2023-03-08T11:19:37 IST" name="afterClass" finished-at="2023-03-08T11:19:38 IST" duration-ms="915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.saucedemo.TestPack.TC04_VerifyLogoutFunctionality -->
+    </test> <!-- lowPriorityTest -->
+  </suite> <!-- SanitySuite -->
+</testng-results>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.saucedemo.TestPack.TC02_VerifyBagPrdtAddToCartFunctionality">
+        <methods>
+          <include name="verifyBagPrdtAddToCartFunctionality"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.saucedemo.TestPack.TC02_VerifyBagPrdtAddToCartFunctionality -->
+      <class name="com.saucedemo.TestPack.TC04_VerifyLogoutFunctionality">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="verifyLogoutFunctionality"/>
+        </methods>
+      </class> <!-- com.saucedemo.TestPack.TC04_VerifyLogoutFunctionality -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
